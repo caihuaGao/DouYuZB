@@ -77,12 +77,12 @@
 		E94F234E255556FA006D4C66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E94F236E25555A89006D4C66 /* Tool */,
+				E94F235B255556FA006D4C66 /* Main */,
 				E94F234F255556FA006D4C66 /* Home */,
+				E94F2358255556FA006D4C66 /* Live */,
 				E94F2352255556FA006D4C66 /* Follow */,
 				E94F2355255556FA006D4C66 /* Profile */,
-				E94F2358255556FA006D4C66 /* Live */,
-				E94F235B255556FA006D4C66 /* Main */,
+				E94F236E25555A89006D4C66 /* Tool */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
