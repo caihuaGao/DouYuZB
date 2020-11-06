@@ -12,12 +12,8 @@
 		E94F22CD2554FD05006D4C66 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F22CB2554FD05006D4C66 /* LaunchScreen.storyboard */; };
 		E94F22E625554D16006D4C66 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F22E525554D16006D4C66 /* SceneDelegate.swift */; };
 		E94F235F255556FA006D4C66 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F2350255556FA006D4C66 /* Home.storyboard */; };
-		E94F2360255556FA006D4C66 /* Home~.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F2351255556FA006D4C66 /* Home~.storyboard */; };
-		E94F2361255556FA006D4C66 /* Follow~.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F2353255556FA006D4C66 /* Follow~.storyboard */; };
 		E94F2362255556FA006D4C66 /* Follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F2354255556FA006D4C66 /* Follow.storyboard */; };
 		E94F2363255556FA006D4C66 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F2356255556FA006D4C66 /* Profile.storyboard */; };
-		E94F2364255556FA006D4C66 /* Profile~.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F2357255556FA006D4C66 /* Profile~.storyboard */; };
-		E94F2365255556FA006D4C66 /* Live~.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F2359255556FA006D4C66 /* Live~.storyboard */; };
 		E94F2366255556FA006D4C66 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F235A255556FA006D4C66 /* Live.storyboard */; };
 		E94F2367255556FA006D4C66 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F235C255556FA006D4C66 /* MainViewController.swift */; };
 		E94F2368255556FA006D4C66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E94F235D255556FA006D4C66 /* Main.storyboard */; };
@@ -31,12 +27,8 @@
 		E94F22CE2554FD05006D4C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E94F22E525554D16006D4C66 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E94F2350255556FA006D4C66 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
-		E94F2351255556FA006D4C66 /* Home~.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Home~.storyboard"; sourceTree = "<group>"; };
-		E94F2353255556FA006D4C66 /* Follow~.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Follow~.storyboard"; sourceTree = "<group>"; };
 		E94F2354255556FA006D4C66 /* Follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Follow.storyboard; sourceTree = "<group>"; };
 		E94F2356255556FA006D4C66 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
-		E94F2357255556FA006D4C66 /* Profile~.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Profile~.storyboard"; sourceTree = "<group>"; };
-		E94F2359255556FA006D4C66 /* Live~.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Live~.storyboard"; sourceTree = "<group>"; };
 		E94F235A255556FA006D4C66 /* Live.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
 		E94F235C255556FA006D4C66 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		E94F235E255556FA006D4C66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -85,6 +77,7 @@
 		E94F234E255556FA006D4C66 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E94F236E25555A89006D4C66 /* Tool */,
 				E94F234F255556FA006D4C66 /* Home */,
 				E94F2352255556FA006D4C66 /* Follow */,
 				E94F2355255556FA006D4C66 /* Profile */,
@@ -97,8 +90,9 @@
 		E94F234F255556FA006D4C66 /* Home */ = {
 			isa = PBXGroup;
 			children = (
-				E94F2350255556FA006D4C66 /* Home.storyboard */,
-				E94F2351255556FA006D4C66 /* Home~.storyboard */,
+				E94F237725555B43006D4C66 /* Controller */,
+				E94F237625555B43006D4C66 /* Model */,
+				E94F237525555B43006D4C66 /* View */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -106,8 +100,9 @@
 		E94F2352255556FA006D4C66 /* Follow */ = {
 			isa = PBXGroup;
 			children = (
-				E94F2353255556FA006D4C66 /* Follow~.storyboard */,
-				E94F2354255556FA006D4C66 /* Follow.storyboard */,
+				E94F237225555B2D006D4C66 /* Controller */,
+				E94F237325555B2D006D4C66 /* Model */,
+				E94F237425555B2D006D4C66 /* View */,
 			);
 			path = Follow;
 			sourceTree = "<group>";
@@ -115,8 +110,9 @@
 		E94F2355255556FA006D4C66 /* Profile */ = {
 			isa = PBXGroup;
 			children = (
-				E94F2356255556FA006D4C66 /* Profile.storyboard */,
-				E94F2357255556FA006D4C66 /* Profile~.storyboard */,
+				E94F237B25555B69006D4C66 /* Controller */,
+				E94F237C25555B6A006D4C66 /* Model */,
+				E94F237D25555B6A006D4C66 /* View */,
 			);
 			path = Profile;
 			sourceTree = "<group>";
@@ -124,8 +120,9 @@
 		E94F2358255556FA006D4C66 /* Live */ = {
 			isa = PBXGroup;
 			children = (
-				E94F2359255556FA006D4C66 /* Live~.storyboard */,
-				E94F235A255556FA006D4C66 /* Live.storyboard */,
+				E94F237925555B56006D4C66 /* Controller */,
+				E94F237A25555B57006D4C66 /* Model */,
+				E94F237825555B56006D4C66 /* View */,
 			);
 			path = Live;
 			sourceTree = "<group>";
@@ -133,10 +130,153 @@
 		E94F235B255556FA006D4C66 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				E94F237E25555B7D006D4C66 /* Controller */,
+				E94F238025555B7D006D4C66 /* Model */,
+				E94F237F25555B7D006D4C66 /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E94F236E25555A89006D4C66 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E94F236F25555A89006D4C66 /* Controller */,
+				E94F237025555A89006D4C66 /* Model */,
+				E94F237125555A89006D4C66 /* View */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E94F236F25555A89006D4C66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E94F237025555A89006D4C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E94F237125555A89006D4C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E94F237225555B2D006D4C66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E94F2354255556FA006D4C66 /* Follow.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E94F237325555B2D006D4C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E94F237425555B2D006D4C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E94F237525555B43006D4C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E94F237625555B43006D4C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E94F237725555B43006D4C66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E94F2350255556FA006D4C66 /* Home.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E94F237825555B56006D4C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E94F237925555B56006D4C66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E94F235A255556FA006D4C66 /* Live.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E94F237A25555B57006D4C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E94F237B25555B69006D4C66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E94F2356255556FA006D4C66 /* Profile.storyboard */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E94F237C25555B6A006D4C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E94F237D25555B6A006D4C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E94F237E25555B7D006D4C66 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				E94F235C255556FA006D4C66 /* MainViewController.swift */,
 				E94F235D255556FA006D4C66 /* Main.storyboard */,
 			);
-			path = Main;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E94F237F25555B7D006D4C66 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E94F238025555B7D006D4C66 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -198,13 +338,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94F235F255556FA006D4C66 /* Home.storyboard in Resources */,
-				E94F2364255556FA006D4C66 /* Profile~.storyboard in Resources */,
-				E94F2365255556FA006D4C66 /* Live~.storyboard in Resources */,
 				E94F22CD2554FD05006D4C66 /* LaunchScreen.storyboard in Resources */,
-				E94F2360255556FA006D4C66 /* Home~.storyboard in Resources */,
 				E94F2368255556FA006D4C66 /* Main.storyboard in Resources */,
 				E94F22CA2554FD05006D4C66 /* Assets.xcassets in Resources */,
-				E94F2361255556FA006D4C66 /* Follow~.storyboard in Resources */,
 				E94F2363255556FA006D4C66 /* Profile.storyboard in Resources */,
 				E94F2366255556FA006D4C66 /* Live.storyboard in Resources */,
 				E94F2362255556FA006D4C66 /* Follow.storyboard in Resources */,
