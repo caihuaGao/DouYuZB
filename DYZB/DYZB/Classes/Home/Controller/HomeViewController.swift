@@ -12,6 +12,13 @@ private let kTitleViewH:CGFloat = 40
 
 class HomeViewController: UIViewController {
 
+    
+    // MARK:- 懒加载属性
+    private lazy var recommendVM: CHRecommendVM = {
+       let recommendVM = CHRecommendVM()
+        return recommendVM;
+    }()
+    
     private lazy var pageTitleView: CHPageTitleView = {
         let titleFrame = CGRect(x: 0, y: kNavigationBarH, width: kScreenW, height: kTitleViewH)
         let titles = ["推荐","游戏","娱乐","趣玩"]

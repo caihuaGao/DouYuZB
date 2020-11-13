@@ -78,6 +78,12 @@
             </constraints>
             <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
             <size key="customSize" width="151" height="199"/>
+            <connections>
+                <outlet property="cityBtn" destination="rZv-n7-UYY" id="zgy-ia-szw"/>
+                <outlet property="imgView" destination="6hj-0a-GYU" id="1hO-SN-Ris"/>
+                <outlet property="onlineCounLabel" destination="OXd-SG-crb" id="iqo-JX-0bK"/>
+                <outlet property="titleLabel" destination="oca-MW-XkU" id="bgb-Hh-N9F"/>
+            </connections>
             <point key="canvasLocation" x="26.811594202898554" y="58.59375"/>
         </collectionViewCell>
     </objects>

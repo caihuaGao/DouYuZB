@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -33,6 +33,20 @@
 		E94F239B255A9023006D4C66 /* CollectionViewNormalCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F2399255A9023006D4C66 /* CollectionViewNormalCell.xib */; };
 		E94F239E255A9698006D4C66 /* CollectionViewPrettyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F239C255A9698006D4C66 /* CollectionViewPrettyCell.swift */; };
 		E94F239F255A9698006D4C66 /* CollectionViewPrettyCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F239D255A9698006D4C66 /* CollectionViewPrettyCell.xib */; };
+		E94F23A1255AA619006D4C66 /* CHNetworkTools.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23A0255AA619006D4C66 /* CHNetworkTools.swift */; };
+		E94F23A3255BBABB006D4C66 /* NSDate-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23A2255BBABB006D4C66 /* NSDate-Extension.swift */; };
+		E94F23A6255CE9B8006D4C66 /* CHRecommendVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23A5255CE9B8006D4C66 /* CHRecommendVM.swift */; };
+		E94F23A8255D0317006D4C66 /* CHAnchorGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23A7255D0317006D4C66 /* CHAnchorGroup.swift */; };
+		E94F23AA255D07F9006D4C66 /* CHAnchorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23A9255D07F9006D4C66 /* CHAnchorModel.swift */; };
+		E94F23AC255E58B7006D4C66 /* CHCycleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23AB255E58B6006D4C66 /* CHCycleModel.swift */; };
+		E94F23AE255E5D95006D4C66 /* CHCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23AD255E5D95006D4C66 /* CHCycleView.swift */; };
+		E94F23B0255E5DA7006D4C66 /* CHCycleView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F23AF255E5DA7006D4C66 /* CHCycleView.xib */; };
+		E94F23B5255E69ED006D4C66 /* CHCycleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23B3255E69ED006D4C66 /* CHCycleCell.swift */; };
+		E94F23B6255E69ED006D4C66 /* CHCycleCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F23B4255E69ED006D4C66 /* CHCycleCell.xib */; };
+		E94F23BB255E83C3006D4C66 /* CHGameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23B9255E83C3006D4C66 /* CHGameCell.swift */; };
+		E94F23BC255E83C3006D4C66 /* CHGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F23BA255E83C3006D4C66 /* CHGameCell.xib */; };
+		E94F23BE255E8A9B006D4C66 /* CHGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23BD255E8A9B006D4C66 /* CHGameView.swift */; };
+		E94F23C0255E8AC9006D4C66 /* CHGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F23BF255E8AC9006D4C66 /* CHGameView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -66,6 +80,20 @@
 		E94F2399255A9023006D4C66 /* CollectionViewNormalCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewNormalCell.xib; sourceTree = "<group>"; };
 		E94F239C255A9698006D4C66 /* CollectionViewPrettyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewPrettyCell.swift; sourceTree = "<group>"; };
 		E94F239D255A9698006D4C66 /* CollectionViewPrettyCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewPrettyCell.xib; sourceTree = "<group>"; };
+		E94F23A0255AA619006D4C66 /* CHNetworkTools.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHNetworkTools.swift; sourceTree = "<group>"; };
+		E94F23A2255BBABB006D4C66 /* NSDate-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSDate-Extension.swift"; sourceTree = "<group>"; };
+		E94F23A5255CE9B8006D4C66 /* CHRecommendVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHRecommendVM.swift; sourceTree = "<group>"; };
+		E94F23A7255D0317006D4C66 /* CHAnchorGroup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHAnchorGroup.swift; sourceTree = "<group>"; };
+		E94F23A9255D07F9006D4C66 /* CHAnchorModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHAnchorModel.swift; sourceTree = "<group>"; };
+		E94F23AB255E58B6006D4C66 /* CHCycleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCycleModel.swift; sourceTree = "<group>"; };
+		E94F23AD255E5D95006D4C66 /* CHCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCycleView.swift; sourceTree = "<group>"; };
+		E94F23AF255E5DA7006D4C66 /* CHCycleView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHCycleView.xib; sourceTree = "<group>"; };
+		E94F23B3255E69ED006D4C66 /* CHCycleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHCycleCell.swift; sourceTree = "<group>"; };
+		E94F23B4255E69ED006D4C66 /* CHCycleCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHCycleCell.xib; sourceTree = "<group>"; };
+		E94F23B9255E83C3006D4C66 /* CHGameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHGameCell.swift; sourceTree = "<group>"; };
+		E94F23BA255E83C3006D4C66 /* CHGameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHGameCell.xib; sourceTree = "<group>"; };
+		E94F23BD255E8A9B006D4C66 /* CHGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHGameView.swift; sourceTree = "<group>"; };
+		E94F23BF255E8AC9006D4C66 /* CHGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHGameView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,7 +122,6 @@
 				DC443068B9DEEEF6C6467C5C /* Pods-DYZB.debug.xcconfig */,
 				E79FED397C32B8C412048616 /* Pods-DYZB.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -145,6 +172,7 @@
 		E94F234F255556FA006D4C66 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				E94F23A4255CE7A1006D4C66 /* ViewModel */,
 				E94F237725555B43006D4C66 /* Controller */,
 				E94F237625555B43006D4C66 /* Model */,
 				E94F237525555B43006D4C66 /* View */,
@@ -197,6 +225,7 @@
 			children = (
 				E94F23832558F3B7006D4C66 /* Extension */,
 				E94F238825591680006D4C66 /* Common.swift */,
+				E94F23A0255AA619006D4C66 /* CHNetworkTools.swift */,
 			);
 			path = Tool;
 			sourceTree = "<group>";
@@ -228,6 +257,14 @@
 			children = (
 				E94F2394255A8980006D4C66 /* CollectionHeaderView.swift */,
 				E94F2395255A8980006D4C66 /* CollectionHeaderView.xib */,
+				E94F23AD255E5D95006D4C66 /* CHCycleView.swift */,
+				E94F23AF255E5DA7006D4C66 /* CHCycleView.xib */,
+				E94F23B3255E69ED006D4C66 /* CHCycleCell.swift */,
+				E94F23B4255E69ED006D4C66 /* CHCycleCell.xib */,
+				E94F23B9255E83C3006D4C66 /* CHGameCell.swift */,
+				E94F23BA255E83C3006D4C66 /* CHGameCell.xib */,
+				E94F23BD255E8A9B006D4C66 /* CHGameView.swift */,
+				E94F23BF255E8AC9006D4C66 /* CHGameView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -235,6 +272,7 @@
 		E94F237625555B43006D4C66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E94F23AB255E58B6006D4C66 /* CHCycleModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -318,6 +356,8 @@
 		E94F238025555B7D006D4C66 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E94F23A7255D0317006D4C66 /* CHAnchorGroup.swift */,
+				E94F23A9255D07F9006D4C66 /* CHAnchorModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -329,8 +369,17 @@
 				E94F238A255917E6006D4C66 /* UIDevice-Extension.swift */,
 				E94F238C25591E25006D4C66 /* UIApplication-Extension.swift */,
 				E94F239025594E61006D4C66 /* UIColor-Extentsion.swift */,
+				E94F23A2255BBABB006D4C66 /* NSDate-Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		E94F23A4255CE7A1006D4C66 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				E94F23A5255CE9B8006D4C66 /* CHRecommendVM.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +410,7 @@
 		E94F22B52554FD04006D4C66 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CH;
 				LastSwiftUpdateCheck = 1170;
 				LastUpgradeCheck = 1170;
 				ORGANIZATIONNAME = xingyuxinghua;
@@ -395,10 +445,14 @@
 			files = (
 				E94F235F255556FA006D4C66 /* Home.storyboard in Resources */,
 				E94F2397255A8980006D4C66 /* CollectionHeaderView.xib in Resources */,
+				E94F23BC255E83C3006D4C66 /* CHGameCell.xib in Resources */,
 				E94F22CD2554FD05006D4C66 /* LaunchScreen.storyboard in Resources */,
+				E94F23B0255E5DA7006D4C66 /* CHCycleView.xib in Resources */,
 				E94F2368255556FA006D4C66 /* Main.storyboard in Resources */,
 				E94F239F255A9698006D4C66 /* CollectionViewPrettyCell.xib in Resources */,
 				E94F22CA2554FD05006D4C66 /* Assets.xcassets in Resources */,
+				E94F23B6255E69ED006D4C66 /* CHCycleCell.xib in Resources */,
+				E94F23C0255E8AC9006D4C66 /* CHGameView.xib in Resources */,
 				E94F239B255A9023006D4C66 /* CollectionViewNormalCell.xib in Resources */,
 				E94F2363255556FA006D4C66 /* Profile.storyboard in Resources */,
 				E94F2366255556FA006D4C66 /* Live.storyboard in Resources */,
@@ -456,18 +510,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				E94F238F25594B43006D4C66 /* CHPageContentView.swift in Sources */,
+				E94F23A1255AA619006D4C66 /* CHNetworkTools.swift in Sources */,
+				E94F23A6255CE9B8006D4C66 /* CHRecommendVM.swift in Sources */,
+				E94F23A3255BBABB006D4C66 /* NSDate-Extension.swift in Sources */,
+				E94F23B5255E69ED006D4C66 /* CHCycleCell.swift in Sources */,
 				E94F238525590AFF006D4C66 /* UIBarButtonItem-Extension.swift in Sources */,
 				E94F239E255A9698006D4C66 /* CollectionViewPrettyCell.swift in Sources */,
+				E94F23BE255E8A9B006D4C66 /* CHGameView.swift in Sources */,
 				E94F2367255556FA006D4C66 /* MainViewController.swift in Sources */,
+				E94F23BB255E83C3006D4C66 /* CHGameCell.swift in Sources */,
 				E94F238D25591E25006D4C66 /* UIApplication-Extension.swift in Sources */,
+				E94F23AE255E5D95006D4C66 /* CHCycleView.swift in Sources */,
 				E94F22C12554FD04006D4C66 /* AppDelegate.swift in Sources */,
 				E94F2393255A7090006D4C66 /* RecommendViewController.swift in Sources */,
 				E94F238B255917E6006D4C66 /* UIDevice-Extension.swift in Sources */,
+				E94F23AC255E58B7006D4C66 /* CHCycleModel.swift in Sources */,
 				E94F239A255A9023006D4C66 /* CollectionViewNormalCell.swift in Sources */,
 				E94F2396255A8980006D4C66 /* CollectionHeaderView.swift in Sources */,
+				E94F23A8255D0317006D4C66 /* CHAnchorGroup.swift in Sources */,
 				E94F22E625554D16006D4C66 /* SceneDelegate.swift in Sources */,
 				E94F239125594E61006D4C66 /* UIColor-Extentsion.swift in Sources */,
 				E94F238225555D49006D4C66 /* HomeViewController.swift in Sources */,
+				E94F23AA255D07F9006D4C66 /* CHAnchorModel.swift in Sources */,
 				E94F23872559134A006D4C66 /* CHPageTitleView.swift in Sources */,
 				E94F238925591680006D4C66 /* Common.swift in Sources */,
 			);
