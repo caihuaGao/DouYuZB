@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="ACZ-uo-IHx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -23,21 +24,60 @@
             </objects>
             <point key="canvasLocation" x="10" y="-1079"/>
         </scene>
-        <!--View Controller-->
+        <!--Live View Controller-->
         <scene sceneID="91c-4s-DmP">
             <objects>
-                <viewController id="1yo-Bw-pfc" sceneMemberID="viewController">
+                <viewController id="1yo-Bw-pfc" customClass="CHLiveViewController" customModule="DYZB" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="TjQ-84-hqU">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gd3-n5-hJp">
+                                <rect key="frame" x="167" y="188" width="80" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="0FA-CE-8rc"/>
+                                    <constraint firstAttribute="width" constant="80" id="iYV-Uy-HKn"/>
+                                </constraints>
+                                <state key="normal" title="开始录制"/>
+                                <connections>
+                                    <action selector="startCapture:" destination="1yo-Bw-pfc" eventType="touchUpInside" id="oRO-T9-0uD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B1o-po-S0a">
+                                <rect key="frame" x="176" y="260" width="62" height="30"/>
+                                <state key="normal" title="停止录制"/>
+                                <connections>
+                                    <action selector="endCapture:" destination="1yo-Bw-pfc" eventType="touchUpInside" id="1C7-x8-DVA"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iUd-Q5-sQd">
+                                <rect key="frame" x="167" y="310" width="80" height="50"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="NnI-nL-Azf"/>
+                                    <constraint firstAttribute="width" constant="80" id="PoX-U9-Mjv"/>
+                                </constraints>
+                                <state key="normal" title="切换镜头"/>
+                                <connections>
+                                    <action selector="swichCapture:" destination="1yo-Bw-pfc" eventType="touchUpInside" id="Ib7-zm-UVR"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="B1o-po-S0a" firstAttribute="top" secondItem="gd3-n5-hJp" secondAttribute="bottom" constant="22" id="O4W-Wt-kFb"/>
+                            <constraint firstItem="gd3-n5-hJp" firstAttribute="top" secondItem="n0M-ga-JFH" secondAttribute="top" constant="100" id="Rt9-ng-bAn"/>
+                            <constraint firstItem="iUd-Q5-sQd" firstAttribute="top" secondItem="B1o-po-S0a" secondAttribute="bottom" constant="20" id="Xlc-ys-iGf"/>
+                            <constraint firstItem="B1o-po-S0a" firstAttribute="centerX" secondItem="TjQ-84-hqU" secondAttribute="centerX" id="fFT-h2-YD5"/>
+                            <constraint firstItem="iUd-Q5-sQd" firstAttribute="centerX" secondItem="TjQ-84-hqU" secondAttribute="centerX" id="oyY-6P-8Vf"/>
+                            <constraint firstItem="gd3-n5-hJp" firstAttribute="centerX" secondItem="TjQ-84-hqU" secondAttribute="centerX" id="pRX-zG-2YU"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="n0M-ga-JFH"/>
                     </view>
                     <navigationItem key="navigationItem" id="bM5-Sn-J7o"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="yw3-Ei-KKh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="941" y="-1079"/>
+            <point key="canvasLocation" x="940.57971014492762" y="-1079.4642857142856"/>
         </scene>
     </scenes>
     <resources>

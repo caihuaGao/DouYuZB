@@ -31,13 +31,9 @@ class CHGameView: UIView {
         super.awakeFromNib()
         autoresizingMask = []
         collectionView.register(UINib(nibName: "CHGameCell", bundle: nil), forCellWithReuseIdentifier: kGameCellID)
+        collectionView.contentInset = UIEdgeInsets(top: 0, left: 10, bottom: 0, right: 10)
+
     }
-    
-    override func layoutSubviews() {
-        super.layoutSubviews()
-        collectionView.contentInset = UIEdgeInsets(top: 0, left: 15, bottom: 0, right: 15)
-    }
-    
 
 }
 // MARK:- 创建该控件

@@ -47,6 +47,8 @@
 		E94F23BC255E83C3006D4C66 /* CHGameCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F23BA255E83C3006D4C66 /* CHGameCell.xib */; };
 		E94F23BE255E8A9B006D4C66 /* CHGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94F23BD255E8A9B006D4C66 /* CHGameView.swift */; };
 		E94F23C0255E8AC9006D4C66 /* CHGameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E94F23BF255E8AC9006D4C66 /* CHGameView.xib */; };
+		E982B7882563676100FB8FCB /* CHRecommendGameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E982B7872563676100FB8FCB /* CHRecommendGameVC.swift */; };
+		E982B78A2563741500FB8FCB /* CHLiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E982B7892563741500FB8FCB /* CHLiveViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,6 +96,8 @@
 		E94F23BA255E83C3006D4C66 /* CHGameCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHGameCell.xib; sourceTree = "<group>"; };
 		E94F23BD255E8A9B006D4C66 /* CHGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHGameView.swift; sourceTree = "<group>"; };
 		E94F23BF255E8AC9006D4C66 /* CHGameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CHGameView.xib; sourceTree = "<group>"; };
+		E982B7872563676100FB8FCB /* CHRecommendGameVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHRecommendGameVC.swift; sourceTree = "<group>"; };
+		E982B7892563741500FB8FCB /* CHLiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHLiveViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -283,6 +287,7 @@
 				E94F2350255556FA006D4C66 /* Home.storyboard */,
 				E94F238125555D49006D4C66 /* HomeViewController.swift */,
 				E94F2392255A7090006D4C66 /* RecommendViewController.swift */,
+				E982B7872563676100FB8FCB /* CHRecommendGameVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -298,6 +303,7 @@
 			isa = PBXGroup;
 			children = (
 				E94F235A255556FA006D4C66 /* Live.storyboard */,
+				E982B7892563741500FB8FCB /* CHLiveViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -519,6 +525,7 @@
 				E94F23BE255E8A9B006D4C66 /* CHGameView.swift in Sources */,
 				E94F2367255556FA006D4C66 /* MainViewController.swift in Sources */,
 				E94F23BB255E83C3006D4C66 /* CHGameCell.swift in Sources */,
+				E982B7882563676100FB8FCB /* CHRecommendGameVC.swift in Sources */,
 				E94F238D25591E25006D4C66 /* UIApplication-Extension.swift in Sources */,
 				E94F23AE255E5D95006D4C66 /* CHCycleView.swift in Sources */,
 				E94F22C12554FD04006D4C66 /* AppDelegate.swift in Sources */,
@@ -526,6 +533,7 @@
 				E94F238B255917E6006D4C66 /* UIDevice-Extension.swift in Sources */,
 				E94F23AC255E58B7006D4C66 /* CHCycleModel.swift in Sources */,
 				E94F239A255A9023006D4C66 /* CollectionViewNormalCell.swift in Sources */,
+				E982B78A2563741500FB8FCB /* CHLiveViewController.swift in Sources */,
 				E94F2396255A8980006D4C66 /* CollectionHeaderView.swift in Sources */,
 				E94F23A8255D0317006D4C66 /* CHAnchorGroup.swift in Sources */,
 				E94F22E625554D16006D4C66 /* SceneDelegate.swift in Sources */,
